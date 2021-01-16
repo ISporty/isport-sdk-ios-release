@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ISPORTSDK-Swift.h</key>
 		<data>
-		DAg//m3kXvNCi5uG0kfcABlxGts=
+		Lbkw87iKlarlUKe00fGzZ133ka4=
 		</data>
 		<key>Headers/ISPORTSDK.h</key>
 		<data>
@@ -14,87 +14,87 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nRhT+9/mMdxZnpzwPb4FYnrZBV0=
+		bN4c9xCWSZek74WEk/RqJM1f67g=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		ak1FqEuIShmkB9Djg0Xxtwhe/Qg=
+		K3gFx7IrKozNCDoyuYLXXp7gPoA=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		7nDvTRW2864GEpsrpL9sNuDtC/I=
+		krV3KIR/gRGg7vR6K5yeGB8lEYI=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		7nDvTRW2864GEpsrpL9sNuDtC/I=
+		krV3KIR/gRGg7vR6K5yeGB8lEYI=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		ak1FqEuIShmkB9Djg0Xxtwhe/Qg=
+		K3gFx7IrKozNCDoyuYLXXp7gPoA=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		ak1FqEuIShmkB9Djg0Xxtwhe/Qg=
+		K3gFx7IrKozNCDoyuYLXXp7gPoA=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		KUVC60/E3y0vK4RZMHS9K2KJbho=
+		ThSt6sOwS3JoHjjSKkIPuiPZ5jM=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/arm.swiftinterface</key>
 		<data>
-		Nht2eRxKSBVLymgtu4ZpKkNO9fw=
+		NiZaVN+QIS8kEstqTuNiT+Bh0SQ=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		+7jnFzybtUpmkqPyEWp0ALUXnuk=
+		fksrMa90GQH+fldkDj9DILtBL4Y=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		y6RsfxIUud8EtuGXItDjsvT8ciw=
+		NIynvfMy/lnFLIHl79xzAINWnf4=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		u2TtNwrwB2bAB+cv62HjzdgdUSo=
+		gbEAZXMOpp6y/6NpaWLOLUtq3lc=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kveQ6oXXpdMhYBFlhb078lgT6WM=
+		O5wF1ULHrfS9zIusos3LXYJ4r8k=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		y6RsfxIUud8EtuGXItDjsvT8ciw=
+		NIynvfMy/lnFLIHl79xzAINWnf4=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		u2TtNwrwB2bAB+cv62HjzdgdUSo=
+		gbEAZXMOpp6y/6NpaWLOLUtq3lc=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		kveQ6oXXpdMhYBFlhb078lgT6WM=
+		O5wF1ULHrfS9zIusos3LXYJ4r8k=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		KUVC60/E3y0vK4RZMHS9K2KJbho=
+		ThSt6sOwS3JoHjjSKkIPuiPZ5jM=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		Nht2eRxKSBVLymgtu4ZpKkNO9fw=
+		NiZaVN+QIS8kEstqTuNiT+Bh0SQ=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		+7jnFzybtUpmkqPyEWp0ALUXnuk=
+		fksrMa90GQH+fldkDj9DILtBL4Y=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		KUVC60/E3y0vK4RZMHS9K2KJbho=
+		ThSt6sOwS3JoHjjSKkIPuiPZ5jM=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7.swiftinterface</key>
 		<data>
-		Nht2eRxKSBVLymgtu4ZpKkNO9fw=
+		NiZaVN+QIS8kEstqTuNiT+Bh0SQ=
 		</data>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		+7jnFzybtUpmkqPyEWp0ALUXnuk=
+		fksrMa90GQH+fldkDj9DILtBL4Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DAg//m3kXvNCi5uG0kfcABlxGts=
+			Lbkw87iKlarlUKe00fGzZ133ka4=
 			</data>
 			<key>hash2</key>
 			<data>
-			0ZsDPfO1tnhtPyDJ/5n6TyA+hl5ZktBuGAx4Hc2LKN0=
+			OpKv5zwZeO/FqWt7WLmAmHJmG4quB6Czc91n/DgISMA=
 			</data>
 		</dict>
 		<key>Headers/ISPORTSDK.h</key>
@@ -129,220 +129,220 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ak1FqEuIShmkB9Djg0Xxtwhe/Qg=
+			K3gFx7IrKozNCDoyuYLXXp7gPoA=
 			</data>
 			<key>hash2</key>
 			<data>
-			LJ5mNXZwRn9/vqc6YYrS6YlobnPa1O3eQCVqQsVq4Zc=
+			n8Pj20ikGBPSWuAH9abo3BK+v3eIsvkw6CmvAjYyHRA=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7nDvTRW2864GEpsrpL9sNuDtC/I=
+			krV3KIR/gRGg7vR6K5yeGB8lEYI=
 			</data>
 			<key>hash2</key>
 			<data>
-			f/K252XVo1A33DfK4wN+bb4IiDtLBBWgJYwMvS+fZT8=
+			+Mej29fvwkGz8e+6STT7AGejvrjsjjmMzITz783Y0aU=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7nDvTRW2864GEpsrpL9sNuDtC/I=
+			krV3KIR/gRGg7vR6K5yeGB8lEYI=
 			</data>
 			<key>hash2</key>
 			<data>
-			f/K252XVo1A33DfK4wN+bb4IiDtLBBWgJYwMvS+fZT8=
+			+Mej29fvwkGz8e+6STT7AGejvrjsjjmMzITz783Y0aU=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ak1FqEuIShmkB9Djg0Xxtwhe/Qg=
+			K3gFx7IrKozNCDoyuYLXXp7gPoA=
 			</data>
 			<key>hash2</key>
 			<data>
-			LJ5mNXZwRn9/vqc6YYrS6YlobnPa1O3eQCVqQsVq4Zc=
+			n8Pj20ikGBPSWuAH9abo3BK+v3eIsvkw6CmvAjYyHRA=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ak1FqEuIShmkB9Djg0Xxtwhe/Qg=
+			K3gFx7IrKozNCDoyuYLXXp7gPoA=
 			</data>
 			<key>hash2</key>
 			<data>
-			LJ5mNXZwRn9/vqc6YYrS6YlobnPa1O3eQCVqQsVq4Zc=
+			n8Pj20ikGBPSWuAH9abo3BK+v3eIsvkw6CmvAjYyHRA=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KUVC60/E3y0vK4RZMHS9K2KJbho=
+			ThSt6sOwS3JoHjjSKkIPuiPZ5jM=
 			</data>
 			<key>hash2</key>
 			<data>
-			XiKbNgHRGiBFlrc66c5k4MbtqBqrUz0qHyqseWTal7M=
+			tCooRfN7KFBEzKswJvGhC3+SVdXOlRLONw+dIbt5hno=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/arm.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Nht2eRxKSBVLymgtu4ZpKkNO9fw=
+			NiZaVN+QIS8kEstqTuNiT+Bh0SQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			OF6Z4dd6xK3wg16qKQ4GjF5eM3fWv1x+5HEidCMUFXI=
+			KH1+Roxf1/O+t+izspGKe6vsV1twfZb0B2ZNPR+q5kc=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+7jnFzybtUpmkqPyEWp0ALUXnuk=
+			fksrMa90GQH+fldkDj9DILtBL4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			oOddppR3coL+vA3wfAPcEx9nsa7KseeqnRxkE92kSkE=
+			/G76DY521pImPQp1k55ZycsQusZCjTUMHSSEdc0MBLI=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y6RsfxIUud8EtuGXItDjsvT8ciw=
+			NIynvfMy/lnFLIHl79xzAINWnf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XjUh8Is+DbhrxZ5IK9zX0+g8OM7QZL9glcrTDL4Dro0=
+			zq/rM/Yncc6WpNZAl1JykTuqbMcAynYMnAxa6KXCOSs=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u2TtNwrwB2bAB+cv62HjzdgdUSo=
+			gbEAZXMOpp6y/6NpaWLOLUtq3lc=
 			</data>
 			<key>hash2</key>
 			<data>
-			isQeR+JGhM+x8ivRnrfSdPQ2VsSAeQAK3tZG34s+WCU=
+			Qk60g6Rz2ezlo1XS4/UGd48yo+SwyY4wL5AR3wZvqmQ=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kveQ6oXXpdMhYBFlhb078lgT6WM=
+			O5wF1ULHrfS9zIusos3LXYJ4r8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			axOg3d4jKoUxGhnd38UaJU42JKjtGd4XWD3uPFR/Jg8=
+			Edfb1PakuGdewdM7AqhkSotZmRU0OO1JCb5pqefFPIY=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y6RsfxIUud8EtuGXItDjsvT8ciw=
+			NIynvfMy/lnFLIHl79xzAINWnf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XjUh8Is+DbhrxZ5IK9zX0+g8OM7QZL9glcrTDL4Dro0=
+			zq/rM/Yncc6WpNZAl1JykTuqbMcAynYMnAxa6KXCOSs=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u2TtNwrwB2bAB+cv62HjzdgdUSo=
+			gbEAZXMOpp6y/6NpaWLOLUtq3lc=
 			</data>
 			<key>hash2</key>
 			<data>
-			isQeR+JGhM+x8ivRnrfSdPQ2VsSAeQAK3tZG34s+WCU=
+			Qk60g6Rz2ezlo1XS4/UGd48yo+SwyY4wL5AR3wZvqmQ=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kveQ6oXXpdMhYBFlhb078lgT6WM=
+			O5wF1ULHrfS9zIusos3LXYJ4r8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			axOg3d4jKoUxGhnd38UaJU42JKjtGd4XWD3uPFR/Jg8=
+			Edfb1PakuGdewdM7AqhkSotZmRU0OO1JCb5pqefFPIY=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KUVC60/E3y0vK4RZMHS9K2KJbho=
+			ThSt6sOwS3JoHjjSKkIPuiPZ5jM=
 			</data>
 			<key>hash2</key>
 			<data>
-			XiKbNgHRGiBFlrc66c5k4MbtqBqrUz0qHyqseWTal7M=
+			tCooRfN7KFBEzKswJvGhC3+SVdXOlRLONw+dIbt5hno=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Nht2eRxKSBVLymgtu4ZpKkNO9fw=
+			NiZaVN+QIS8kEstqTuNiT+Bh0SQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			OF6Z4dd6xK3wg16qKQ4GjF5eM3fWv1x+5HEidCMUFXI=
+			KH1+Roxf1/O+t+izspGKe6vsV1twfZb0B2ZNPR+q5kc=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+7jnFzybtUpmkqPyEWp0ALUXnuk=
+			fksrMa90GQH+fldkDj9DILtBL4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			oOddppR3coL+vA3wfAPcEx9nsa7KseeqnRxkE92kSkE=
+			/G76DY521pImPQp1k55ZycsQusZCjTUMHSSEdc0MBLI=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KUVC60/E3y0vK4RZMHS9K2KJbho=
+			ThSt6sOwS3JoHjjSKkIPuiPZ5jM=
 			</data>
 			<key>hash2</key>
 			<data>
-			XiKbNgHRGiBFlrc66c5k4MbtqBqrUz0qHyqseWTal7M=
+			tCooRfN7KFBEzKswJvGhC3+SVdXOlRLONw+dIbt5hno=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Nht2eRxKSBVLymgtu4ZpKkNO9fw=
+			NiZaVN+QIS8kEstqTuNiT+Bh0SQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			OF6Z4dd6xK3wg16qKQ4GjF5eM3fWv1x+5HEidCMUFXI=
+			KH1+Roxf1/O+t+izspGKe6vsV1twfZb0B2ZNPR+q5kc=
 			</data>
 		</dict>
 		<key>Modules/ISPORTSDK.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+7jnFzybtUpmkqPyEWp0ALUXnuk=
+			fksrMa90GQH+fldkDj9DILtBL4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			oOddppR3coL+vA3wfAPcEx9nsa7KseeqnRxkE92kSkE=
+			/G76DY521pImPQp1k55ZycsQusZCjTUMHSSEdc0MBLI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

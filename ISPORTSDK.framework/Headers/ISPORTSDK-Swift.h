@@ -232,9 +232,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onDism
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserPurchase)(NSString * _Nonnull);)
 + (void (^ _Nullable)(NSString * _Nonnull))onUserPurchase SWIFT_WARN_UNUSED_RESULT;
 + (void)setOnUserPurchase:(void (^ _Nullable)(NSString * _Nonnull))value;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserExchangeLoyalty)(uint32_t);)
-+ (void (^ _Nullable)(uint32_t))onUserExchangeLoyalty SWIFT_WARN_UNUSED_RESULT;
-+ (void)setOnUserExchangeLoyalty:(void (^ _Nullable)(uint32_t))value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserExchangeLoyalty)(NSString * _Nonnull, uint32_t);)
++ (void (^ _Nullable)(NSString * _Nonnull, uint32_t))onUserExchangeLoyalty SWIFT_WARN_UNUSED_RESULT;
++ (void)setOnUserExchangeLoyalty:(void (^ _Nullable)(NSString * _Nonnull, uint32_t))value;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserStartLiveDetail)(NSString * _Nonnull);)
 + (void (^ _Nullable)(NSString * _Nonnull))onUserStartLiveDetail SWIFT_WARN_UNUSED_RESULT;
 + (void)setOnUserStartLiveDetail:(void (^ _Nullable)(NSString * _Nonnull))value;
@@ -540,9 +540,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onDism
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserPurchase)(NSString * _Nonnull);)
 + (void (^ _Nullable)(NSString * _Nonnull))onUserPurchase SWIFT_WARN_UNUSED_RESULT;
 + (void)setOnUserPurchase:(void (^ _Nullable)(NSString * _Nonnull))value;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserExchangeLoyalty)(uint32_t);)
-+ (void (^ _Nullable)(uint32_t))onUserExchangeLoyalty SWIFT_WARN_UNUSED_RESULT;
-+ (void)setOnUserExchangeLoyalty:(void (^ _Nullable)(uint32_t))value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserExchangeLoyalty)(NSString * _Nonnull, uint32_t);)
++ (void (^ _Nullable)(NSString * _Nonnull, uint32_t))onUserExchangeLoyalty SWIFT_WARN_UNUSED_RESULT;
++ (void)setOnUserExchangeLoyalty:(void (^ _Nullable)(NSString * _Nonnull, uint32_t))value;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserStartLiveDetail)(NSString * _Nonnull);)
 + (void (^ _Nullable)(NSString * _Nonnull))onUserStartLiveDetail SWIFT_WARN_UNUSED_RESULT;
 + (void)setOnUserStartLiveDetail:(void (^ _Nullable)(NSString * _Nonnull))value;
@@ -847,9 +847,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onDism
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserPurchase)(NSString * _Nonnull);)
 + (void (^ _Nullable)(NSString * _Nonnull))onUserPurchase SWIFT_WARN_UNUSED_RESULT;
 + (void)setOnUserPurchase:(void (^ _Nullable)(NSString * _Nonnull))value;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserExchangeLoyalty)(uint32_t);)
-+ (void (^ _Nullable)(uint32_t))onUserExchangeLoyalty SWIFT_WARN_UNUSED_RESULT;
-+ (void)setOnUserExchangeLoyalty:(void (^ _Nullable)(uint32_t))value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserExchangeLoyalty)(NSString * _Nonnull, uint32_t);)
++ (void (^ _Nullable)(NSString * _Nonnull, uint32_t))onUserExchangeLoyalty SWIFT_WARN_UNUSED_RESULT;
++ (void)setOnUserExchangeLoyalty:(void (^ _Nullable)(NSString * _Nonnull, uint32_t))value;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onUserStartLiveDetail)(NSString * _Nonnull);)
 + (void (^ _Nullable)(NSString * _Nonnull))onUserStartLiveDetail SWIFT_WARN_UNUSED_RESULT;
 + (void)setOnUserStartLiveDetail:(void (^ _Nullable)(NSString * _Nonnull))value;

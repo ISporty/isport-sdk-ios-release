@@ -59,7 +59,7 @@ import WebKit
   @objc public static var onUserLogin: (() -> ())?
   @objc public static var onDismiss: (() -> ())?
   @objc public static var onUserPurchase: ((Swift.String) -> ())?
-  @objc public static var onUserExchangeLoyalty: ((Swift.UInt32) -> ())?
+  @objc public static var onUserExchangeLoyalty: ((Swift.String, Swift.UInt32) -> ())?
   @objc public static var onUserStartLiveDetail: ((Swift.String) -> ())?
   @objc public static func addISportView(container: UIKit.UIView!, data: ISPORTSDK.ISportData!)
   @objc public static func onUserPurchaseSuccess()

@@ -1,0 +1,80 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ISPORTSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVKit
+import Foundation
+@_exported import ISPORTSDK
+import Swift
+import WebKit
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ISportView : UIKit.UIView, WebKit.WKScriptMessageHandler, WebKit.WKNavigationDelegate, WebKit.WKUIDelegate {
+  @_Concurrency.MainActor(unsafe) open var mWebView: WebKit.WKWebView!
+  @_Concurrency.MainActor(unsafe) public func injectJavascript(javascript: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc open func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @_Concurrency.MainActor(unsafe) @objc public func webViewDidClose(_ webView: WebKit.WKWebView)
+  @_Concurrency.MainActor(unsafe) public func clearAll()
+  @objc deinit
+}
+@objc public class ISportWebAction : ObjectiveC.NSObject {
+  public enum TypeAction : Swift.String {
+    case USER_LOGIN, USER_PURCHASE, USER_EXCHANGE_LOYALTY, USER_START_LIVE_DETAIL, USER_DISMISS, UNKNOWN
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public init(payload: Swift.String)
+  public func getType() -> ISPORTSDK.ISportWebAction.TypeAction
+  @objc deinit
+}
+@objc public class ISportData : ObjectiveC.NSObject {
+  @objc public init(matchId: Swift.String?, token: Swift.String?, type: ISPORTSDK.ISportData.ViewType = ISportData.ViewType.DETAIL, env: ISPORTSDK.ISportData.Environment = ISportData.Environment.PRODUCTION, paramDeepLink: Swift.String = "", debug: Swift.Bool = false)
+  @objc public enum Environment : Swift.Int, Swift.RawRepresentable {
+    case DEV, STAGING, PRODUCTION
+    public typealias RawValue = Swift.String
+    public var rawValue: ISPORTSDK.ISportData.Environment.RawValue {
+      get
+    }
+    public init?(rawValue: ISPORTSDK.ISportData.Environment.RawValue)
+  }
+  @objc public enum ViewType : Swift.Int, Swift.RawRepresentable {
+    case HOME, DETAIL, DEEPLINK
+    public typealias RawValue = Swift.String
+    public var rawValue: ISPORTSDK.ISportData.ViewType.RawValue {
+      get
+    }
+    public init?(rawValue: ISPORTSDK.ISportData.ViewType.RawValue)
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class ISPORTSDK : ObjectiveC.NSObject {
+  @objc public static var onTimeout: (() -> ())?
+  @objc public static var onError: (() -> ())?
+  @objc public static var onUserLogin: (() -> ())?
+  @objc public static var onDismiss: (() -> ())?
+  @objc public static var onUserPurchase: ((_ packageId: Swift.String) -> ())?
+  @objc public static var onUserExchangeLoyalty: ((_ packageId: Swift.String, _ point: Swift.UInt32) -> ())?
+  @objc public static var onUserStartLiveDetail: ((_ channelId: Swift.String) -> ())?
+  @objc public static func addISportView(container: UIKit.UIView!, data: ISPORTSDK.ISportData!)
+  @objc public static func onUserPurchaseSuccess()
+  @objc public static func onUserPurchaseFailed()
+  @objc public static func onUserExchangeLoyaltySuccess()
+  @objc public static func onUserExchangeLoyaltyFailed()
+  @objc public static func removeOverlays()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension ISPORTSDK.ISportWebAction.TypeAction : Swift.Equatable {}
+extension ISPORTSDK.ISportWebAction.TypeAction : Swift.Hashable {}
+extension ISPORTSDK.ISportWebAction.TypeAction : Swift.RawRepresentable {}
+extension ISPORTSDK.ISportData.Environment : Swift.Equatable {}
+extension ISPORTSDK.ISportData.Environment : Swift.Hashable {}
+extension ISPORTSDK.ISportData.ViewType : Swift.Equatable {}
+extension ISPORTSDK.ISportData.ViewType : Swift.Hashable {}

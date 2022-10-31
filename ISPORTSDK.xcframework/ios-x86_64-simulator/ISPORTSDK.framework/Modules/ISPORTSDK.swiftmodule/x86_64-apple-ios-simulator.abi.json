@@ -15,6 +15,225 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ISportDelegate",
+        "printedName": "ISportDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onStartLiveDetail",
+            "printedName": "onStartLiveDetail(channelId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate(im)onStartLiveDetailWithChannelId:",
+            "mangledName": "$s9ISPORTSDK14ISportDelegateP17onStartLiveDetail9channelIdySS_tF",
+            "moduleName": "ISPORTSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ISPORTSDK.ISportDelegate>",
+            "sugared_genericSig": "<Self where Self : ISPORTSDK.ISportDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onExchangeLoyalty",
+            "printedName": "onExchangeLoyalty(packageId:point:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate(im)onExchangeLoyaltyWithPackageId:point:",
+            "mangledName": "$s9ISPORTSDK14ISportDelegateP17onExchangeLoyalty9packageId5pointySS_s6UInt32VtF",
+            "moduleName": "ISPORTSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ISPORTSDK.ISportDelegate>",
+            "sugared_genericSig": "<Self where Self : ISPORTSDK.ISportDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPurchase",
+            "printedName": "onPurchase(packageId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate(im)onPurchaseWithPackageId:",
+            "mangledName": "$s9ISPORTSDK14ISportDelegateP10onPurchase9packageIdySS_tF",
+            "moduleName": "ISPORTSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ISPORTSDK.ISportDelegate>",
+            "sugared_genericSig": "<Self where Self : ISPORTSDK.ISportDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLogin",
+            "printedName": "onLogin()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate(im)onLogin",
+            "mangledName": "$s9ISPORTSDK14ISportDelegateP7onLoginyyF",
+            "moduleName": "ISPORTSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ISPORTSDK.ISportDelegate>",
+            "sugared_genericSig": "<Self where Self : ISPORTSDK.ISportDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDismiss",
+            "printedName": "onDismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate(im)onDismiss",
+            "mangledName": "$s9ISPORTSDK14ISportDelegateP9onDismissyyF",
+            "moduleName": "ISPORTSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ISPORTSDK.ISportDelegate>",
+            "sugared_genericSig": "<Self where Self : ISPORTSDK.ISportDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate(im)onError",
+            "mangledName": "$s9ISPORTSDK14ISportDelegateP7onErroryyF",
+            "moduleName": "ISPORTSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ISPORTSDK.ISportDelegate>",
+            "sugared_genericSig": "<Self where Self : ISPORTSDK.ISportDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTimeout",
+            "printedName": "onTimeout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate(im)onTimeout",
+            "mangledName": "$s9ISPORTSDK14ISportDelegateP9onTimeoutyyF",
+            "moduleName": "ISPORTSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ISPORTSDK.ISportDelegate>",
+            "sugared_genericSig": "<Self where Self : ISPORTSDK.ISportDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate",
+        "mangledName": "$s9ISPORTSDK14ISportDelegateP",
+        "moduleName": "ISPORTSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ISPORTSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
@@ -136,6 +355,249 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "isportDelegate",
+            "printedName": "isportDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ISPORTSDK.ISportDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ISportDelegate",
+                    "printedName": "ISPORTSDK.ISportDelegate",
+                    "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ISPORTSDK10ISportViewC14isportDelegateAA0bE0_pSgvp",
+            "mangledName": "$s9ISPORTSDK10ISportViewC14isportDelegateAA0bE0_pSgvp",
+            "moduleName": "ISPORTSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ISPORTSDK.ISportDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ISportDelegate",
+                        "printedName": "ISPORTSDK.ISportDelegate",
+                        "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ISPORTSDK10ISportViewC14isportDelegateAA0bE0_pSgvg",
+                "mangledName": "$s9ISPORTSDK10ISportViewC14isportDelegateAA0bE0_pSgvg",
+                "moduleName": "ISPORTSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ISPORTSDK.ISportDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ISportDelegate",
+                        "printedName": "ISPORTSDK.ISportDelegate",
+                        "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ISPORTSDK10ISportViewC14isportDelegateAA0bE0_pSgvs",
+                "mangledName": "$s9ISPORTSDK10ISportViewC14isportDelegateAA0bE0_pSgvs",
+                "moduleName": "ISPORTSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ISPORTSDK10ISportViewC14isportDelegateAA0bE0_pSgvM",
+                "mangledName": "$s9ISPORTSDK10ISportViewC14isportDelegateAA0bE0_pSgvM",
+                "moduleName": "ISPORTSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isportData",
+            "printedName": "isportData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "ISPORTSDK.ISportData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ISportData",
+                    "printedName": "ISPORTSDK.ISportData",
+                    "usr": "c:@M@ISPORTSDK@objc(cs)ISportData"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9ISPORTSDK10ISportViewC10isportDataAA0bE0CSgvp",
+            "mangledName": "$s9ISPORTSDK10ISportViewC10isportDataAA0bE0CSgvp",
+            "moduleName": "ISPORTSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "ISPORTSDK.ISportData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ISportData",
+                        "printedName": "ISPORTSDK.ISportData",
+                        "usr": "c:@M@ISPORTSDK@objc(cs)ISportData"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ISPORTSDK10ISportViewC10isportDataAA0bE0CSgvg",
+                "mangledName": "$s9ISPORTSDK10ISportViewC10isportDataAA0bE0CSgvg",
+                "moduleName": "ISPORTSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "ISPORTSDK.ISportData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ISportData",
+                        "printedName": "ISPORTSDK.ISportData",
+                        "usr": "c:@M@ISPORTSDK@objc(cs)ISportData"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ISPORTSDK10ISportViewC10isportDataAA0bE0CSgvs",
+                "mangledName": "$s9ISPORTSDK10ISportViewC10isportDataAA0bE0CSgvs",
+                "moduleName": "ISPORTSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9ISPORTSDK10ISportViewC10isportDataAA0bE0CSgvM",
+                "mangledName": "$s9ISPORTSDK10ISportViewC10isportDataAA0bE0CSgvM",
+                "moduleName": "ISPORTSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadContent",
+            "printedName": "loadContent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ISPORTSDK10ISportViewC11loadContentyyF",
+            "mangledName": "$s9ISPORTSDK10ISportViewC11loadContentyyF",
+            "moduleName": "ISPORTSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -1081,7 +1543,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(matchId:token:type:env:paramDeepLink:debug:)",
+            "printedName": "init(matchId:token:type:env:paramDeepLink:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1137,20 +1599,13 @@
                 "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISportData(im)initWithMatchId:token:type:env:paramDeepLink:debug:",
-            "mangledName": "$s9ISPORTSDK10ISportDataC7matchId5token4type3env13paramDeepLink5debugACSSSg_AjC8ViewTypeOAC11EnvironmentOSSSbtcfc",
+            "usr": "c:@M@ISPORTSDK@objc(cs)ISportData(im)initWithMatchId:token:type:env:paramDeepLink:",
+            "mangledName": "$s9ISPORTSDK10ISportDataC7matchId5token4type3env13paramDeepLinkACSSSg_AiC8ViewTypeOAC11EnvironmentOSStcfc",
             "moduleName": "ISPORTSDK",
-            "objc_name": "initWithMatchId:token:type:env:paramDeepLink:debug:",
+            "objc_name": "initWithMatchId:token:type:env:paramDeepLink:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -1771,1181 +2226,35 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ISPORTSDK",
-        "printedName": "ISPORTSDK",
+        "name": "ISportManager",
+        "printedName": "ISportManager",
         "children": [
           {
-            "kind": "Var",
-            "name": "onTimeout",
-            "printedName": "onTimeout",
+            "kind": "Function",
+            "name": "shared",
+            "printedName": "shared()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "ISportManager",
+                "printedName": "ISPORTSDK.ISportManager",
+                "usr": "c:@M@ISPORTSDK@objc(cs)ISportManager"
               }
             ],
-            "declKind": "Var",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cpy)onTimeout",
-            "mangledName": "$s9ISPORTSDKAAC9onTimeoutyycSgvpZ",
+            "declKind": "Func",
+            "usr": "s:9ISPORTSDK13ISportManagerC6sharedACyFZ",
+            "mangledName": "$s9ISPORTSDK13ISportManagerC6sharedACyFZ",
             "moduleName": "ISPORTSDK",
             "static": true,
             "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onTimeout",
-                "mangledName": "$s9ISPORTSDKAAC9onTimeoutyycSgvgZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)setOnTimeout:",
-                "mangledName": "$s9ISPORTSDKAAC9onTimeoutyycSgvsZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9ISPORTSDKAAC9onTimeoutyycSgvMZ",
-                "mangledName": "$s9ISPORTSDKAAC9onTimeoutyycSgvMZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onError",
-            "printedName": "onError",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cpy)onError",
-            "mangledName": "$s9ISPORTSDKAAC7onErroryycSgvpZ",
-            "moduleName": "ISPORTSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onError",
-                "mangledName": "$s9ISPORTSDKAAC7onErroryycSgvgZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)setOnError:",
-                "mangledName": "$s9ISPORTSDKAAC7onErroryycSgvsZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9ISPORTSDKAAC7onErroryycSgvMZ",
-                "mangledName": "$s9ISPORTSDKAAC7onErroryycSgvMZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onUserLogin",
-            "printedName": "onUserLogin",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cpy)onUserLogin",
-            "mangledName": "$s9ISPORTSDKAAC11onUserLoginyycSgvpZ",
-            "moduleName": "ISPORTSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onUserLogin",
-                "mangledName": "$s9ISPORTSDKAAC11onUserLoginyycSgvgZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)setOnUserLogin:",
-                "mangledName": "$s9ISPORTSDKAAC11onUserLoginyycSgvsZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9ISPORTSDKAAC11onUserLoginyycSgvMZ",
-                "mangledName": "$s9ISPORTSDKAAC11onUserLoginyycSgvMZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onDismiss",
-            "printedName": "onDismiss",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cpy)onDismiss",
-            "mangledName": "$s9ISPORTSDKAAC9onDismissyycSgvpZ",
-            "moduleName": "ISPORTSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onDismiss",
-                "mangledName": "$s9ISPORTSDKAAC9onDismissyycSgvgZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)setOnDismiss:",
-                "mangledName": "$s9ISPORTSDKAAC9onDismissyycSgvsZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9ISPORTSDKAAC9onDismissyycSgvMZ",
-                "mangledName": "$s9ISPORTSDKAAC9onDismissyycSgvMZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onUserPurchase",
-            "printedName": "onUserPurchase",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.String) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cpy)onUserPurchase",
-            "mangledName": "$s9ISPORTSDKAAC14onUserPurchaseySScSgvpZ",
-            "moduleName": "ISPORTSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onUserPurchase",
-                "mangledName": "$s9ISPORTSDKAAC14onUserPurchaseySScSgvgZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)setOnUserPurchase:",
-                "mangledName": "$s9ISPORTSDKAAC14onUserPurchaseySScSgvsZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9ISPORTSDKAAC14onUserPurchaseySScSgvMZ",
-                "mangledName": "$s9ISPORTSDKAAC14onUserPurchaseySScSgvMZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onUserExchangeLoyalty",
-            "printedName": "onUserExchangeLoyalty",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.String, Swift.UInt32) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.UInt32) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(Swift.String, Swift.UInt32)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UInt32",
-                            "printedName": "Swift.UInt32",
-                            "usr": "s:s6UInt32V"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cpy)onUserExchangeLoyalty",
-            "mangledName": "$s9ISPORTSDKAAC21onUserExchangeLoyaltyySS_s6UInt32VtcSgvpZ",
-            "moduleName": "ISPORTSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.String, Swift.UInt32) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String, Swift.UInt32) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Tuple",
-                            "printedName": "(Swift.String, Swift.UInt32)",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "UInt32",
-                                "printedName": "Swift.UInt32",
-                                "usr": "s:s6UInt32V"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onUserExchangeLoyalty",
-                "mangledName": "$s9ISPORTSDKAAC21onUserExchangeLoyaltyySS_s6UInt32VtcSgvgZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.String, Swift.UInt32) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String, Swift.UInt32) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Tuple",
-                            "printedName": "(Swift.String, Swift.UInt32)",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "UInt32",
-                                "printedName": "Swift.UInt32",
-                                "usr": "s:s6UInt32V"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)setOnUserExchangeLoyalty:",
-                "mangledName": "$s9ISPORTSDKAAC21onUserExchangeLoyaltyySS_s6UInt32VtcSgvsZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9ISPORTSDKAAC21onUserExchangeLoyaltyySS_s6UInt32VtcSgvMZ",
-                "mangledName": "$s9ISPORTSDKAAC21onUserExchangeLoyaltyySS_s6UInt32VtcSgvMZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onUserStartLiveDetail",
-            "printedName": "onUserStartLiveDetail",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.String) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cpy)onUserStartLiveDetail",
-            "mangledName": "$s9ISPORTSDKAAC21onUserStartLiveDetailySScSgvpZ",
-            "moduleName": "ISPORTSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onUserStartLiveDetail",
-                "mangledName": "$s9ISPORTSDKAAC21onUserStartLiveDetailySScSgvgZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "((Swift.String) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.String) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)setOnUserStartLiveDetail:",
-                "mangledName": "$s9ISPORTSDKAAC21onUserStartLiveDetailySScSgvsZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9ISPORTSDKAAC21onUserStartLiveDetailySScSgvMZ",
-                "mangledName": "$s9ISPORTSDKAAC21onUserStartLiveDetailySScSgvMZ",
-                "moduleName": "ISPORTSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
             "name": "addISportView",
-            "printedName": "addISportView(container:data:)",
+            "printedName": "addISportView(container:data:isportDelegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2979,16 +2288,20 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISportDelegate",
+                "printedName": "ISPORTSDK.ISportDelegate",
+                "usr": "c:@M@ISPORTSDK@objc(pl)ISportDelegate"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)addISportViewWithContainer:data:",
-            "mangledName": "$s9ISPORTSDKAAC13addISportView9container4dataySo6UIViewCSg_AA0C4DataCSgtFZ",
+            "usr": "c:@M@ISPORTSDK@objc(cs)ISportManager(im)addISportViewWithContainer:data:isportDelegate:",
+            "mangledName": "$s9ISPORTSDK13ISportManagerC03addB4View9container4data14isportDelegateySo6UIViewCSg_AA0B4DataCSgAA0bI0_ptF",
             "moduleName": "ISPORTSDK",
-            "static": true,
-            "objc_name": "addISportViewWithContainer:data:",
+            "objc_name": "addISportViewWithContainer:data:isportDelegate:",
             "declAttributes": [
-              "Final",
               "AccessControl",
               "ObjC"
             ],
@@ -3006,12 +2319,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onUserPurchaseSuccess",
-            "mangledName": "$s9ISPORTSDKAAC21onUserPurchaseSuccessyyFZ",
+            "usr": "c:@M@ISPORTSDK@objc(cs)ISportManager(im)onUserPurchaseSuccess",
+            "mangledName": "$s9ISPORTSDK13ISportManagerC21onUserPurchaseSuccessyyF",
             "moduleName": "ISPORTSDK",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl",
               "ObjC"
             ],
@@ -3029,12 +2340,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onUserPurchaseFailed",
-            "mangledName": "$s9ISPORTSDKAAC20onUserPurchaseFailedyyFZ",
+            "usr": "c:@M@ISPORTSDK@objc(cs)ISportManager(im)onUserPurchaseFailed",
+            "mangledName": "$s9ISPORTSDK13ISportManagerC20onUserPurchaseFailedyyF",
             "moduleName": "ISPORTSDK",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl",
               "ObjC"
             ],
@@ -3052,12 +2361,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onUserExchangeLoyaltySuccess",
-            "mangledName": "$s9ISPORTSDKAAC28onUserExchangeLoyaltySuccessyyFZ",
+            "usr": "c:@M@ISPORTSDK@objc(cs)ISportManager(im)onUserExchangeLoyaltySuccess",
+            "mangledName": "$s9ISPORTSDK13ISportManagerC28onUserExchangeLoyaltySuccessyyF",
             "moduleName": "ISPORTSDK",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl",
               "ObjC"
             ],
@@ -3075,12 +2382,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)onUserExchangeLoyaltyFailed",
-            "mangledName": "$s9ISPORTSDKAAC27onUserExchangeLoyaltyFailedyyFZ",
+            "usr": "c:@M@ISPORTSDK@objc(cs)ISportManager(im)onUserExchangeLoyaltyFailed",
+            "mangledName": "$s9ISPORTSDK13ISportManagerC27onUserExchangeLoyaltyFailedyyF",
             "moduleName": "ISPORTSDK",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl",
               "ObjC"
             ],
@@ -3098,12 +2403,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(cm)removeOverlays",
-            "mangledName": "$s9ISPORTSDKAAC14removeOverlaysyyFZ",
+            "usr": "c:@M@ISPORTSDK@objc(cs)ISportManager(im)removeOverlays",
+            "mangledName": "$s9ISPORTSDK13ISportManagerC14removeOverlaysyyF",
             "moduleName": "ISPORTSDK",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl",
               "ObjC"
             ],
@@ -3116,14 +2419,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ISPORTSDK",
-                "printedName": "ISPORTSDK.ISPORTSDK",
-                "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK"
+                "name": "ISportManager",
+                "printedName": "ISPORTSDK.ISportManager",
+                "usr": "c:@M@ISPORTSDK@objc(cs)ISportManager"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK(im)init",
-            "mangledName": "$s9ISPORTSDKAACABycfc",
+            "usr": "c:@M@ISPORTSDK@objc(cs)ISportManager(im)init",
+            "mangledName": "$s9ISPORTSDK13ISportManagerCACycfc",
             "moduleName": "ISPORTSDK",
             "overriding": true,
             "implicit": true,
@@ -3137,8 +2440,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@ISPORTSDK@objc(cs)ISPORTSDK",
-        "mangledName": "$s9ISPORTSDKAAC",
+        "usr": "c:@M@ISPORTSDK@objc(cs)ISportManager",
+        "mangledName": "$s9ISPORTSDK13ISportManagerC",
         "moduleName": "ISPORTSDK",
         "isOpen": true,
         "declAttributes": [
@@ -3215,57 +2518,43 @@
     },
     {
       "filePath": "\/Users\/namco\/Projects\/Isport\/mobile\/ios\/ISPORTSDK\/ISPORTSDK\/ISportData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1017,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/namco\/Projects\/Isport\/mobile\/ios\/ISPORTSDK\/ISPORTSDK\/ISportData.swift",
       "kind": "StringLiteral",
-      "offset": 1073,
+      "offset": 1045,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/namco\/Projects\/Isport\/mobile\/ios\/ISPORTSDK\/ISPORTSDK\/ISportData.swift",
       "kind": "StringLiteral",
-      "offset": 1286,
+      "offset": 1258,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/namco\/Projects\/Isport\/mobile\/ios\/ISPORTSDK\/ISPORTSDK\/ISportData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1304,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/namco\/Projects\/Isport\/mobile\/ios\/ISPORTSDK\/ISPORTSDK\/ISportData.swift",
       "kind": "IntegerLiteral",
-      "offset": 4526,
+      "offset": 4450,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/namco\/Projects\/Isport\/mobile\/ios\/ISPORTSDK\/ISPORTSDK\/ISportData.swift",
       "kind": "IntegerLiteral",
-      "offset": 4535,
+      "offset": 4459,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/namco\/Projects\/Isport\/mobile\/ios\/ISPORTSDK\/ISPORTSDK\/ISportData.swift",
       "kind": "IntegerLiteral",
-      "offset": 5297,
+      "offset": 5221,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/namco\/Projects\/Isport\/mobile\/ios\/ISPORTSDK\/ISPORTSDK\/ISportData.swift",
       "kind": "IntegerLiteral",
-      "offset": 5305,
+      "offset": 5229,
       "length": 8,
       "value": "2"
     },

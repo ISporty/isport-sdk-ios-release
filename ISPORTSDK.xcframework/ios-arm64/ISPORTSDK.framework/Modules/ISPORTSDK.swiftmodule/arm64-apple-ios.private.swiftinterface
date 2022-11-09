@@ -11,12 +11,8 @@ import _Concurrency
 import _StringProcessing
 @objc public protocol ISportDelegate {
   @objc func onStartLiveDetail(channelId: Swift.String)
-  @objc func onExchangeLoyalty(packageId: Swift.String, point: Swift.UInt32)
-  @objc func onPurchase(packageId: Swift.String)
   @objc func onLogin()
   @objc func onDismiss()
-  @objc func onError()
-  @objc func onTimeout()
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ISportView : UIKit.UIView, WebKit.WKScriptMessageHandler, WebKit.WKNavigationDelegate, WebKit.WKUIDelegate {
   @_Concurrency.MainActor(unsafe) open var mWebView: WebKit.WKWebView!
@@ -47,7 +43,7 @@ import _StringProcessing
   @objc deinit
 }
 @objc public class ISportData : ObjectiveC.NSObject {
-  @objc public init(matchId: Swift.String?, token: Swift.String?, type: ISPORTSDK.ISportData.ViewType = ISportData.ViewType.DETAIL, env: ISPORTSDK.ISportData.Environment = ISportData.Environment.PRODUCTION, paramDeepLink: Swift.String = "")
+  @objc public init(token: Swift.String?, paramDeepLink: Swift.String = "")
   @objc public enum Environment : Swift.Int, Swift.RawRepresentable {
     case DEV, STAGING, PRODUCTION
     public typealias RawValue = Swift.String
@@ -56,23 +52,12 @@ import _StringProcessing
     }
     public init?(rawValue: ISPORTSDK.ISportData.Environment.RawValue)
   }
-  @objc public enum ViewType : Swift.Int, Swift.RawRepresentable {
-    case HOME, DETAIL, DEEPLINK
-    public typealias RawValue = Swift.String
-    public var rawValue: ISPORTSDK.ISportData.ViewType.RawValue {
-      get
-    }
-    public init?(rawValue: ISPORTSDK.ISportData.ViewType.RawValue)
-  }
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers open class ISportManager : ObjectiveC.NSObject {
   public class func shared() -> ISPORTSDK.ISportManager
+  @objc public func initConfig(_env: ISPORTSDK.ISportData.Environment)
   @objc public func addISportView(container: UIKit.UIView!, data: ISPORTSDK.ISportData!, isportDelegate: ISPORTSDK.ISportDelegate)
-  @objc public func onUserPurchaseSuccess()
-  @objc public func onUserPurchaseFailed()
-  @objc public func onUserExchangeLoyaltySuccess()
-  @objc public func onUserExchangeLoyaltyFailed()
   @objc public func removeOverlays()
   @objc override dynamic public init()
   @objc deinit
@@ -82,5 +67,3 @@ extension ISPORTSDK.ISportWebAction.TypeAction : Swift.Hashable {}
 extension ISPORTSDK.ISportWebAction.TypeAction : Swift.RawRepresentable {}
 extension ISPORTSDK.ISportData.Environment : Swift.Equatable {}
 extension ISPORTSDK.ISportData.Environment : Swift.Hashable {}
-extension ISPORTSDK.ISportData.ViewType : Swift.Equatable {}
-extension ISPORTSDK.ISportData.ViewType : Swift.Hashable {}

@@ -256,12 +256,10 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 @class NSString;
-enum ViewType : NSInteger;
-enum Environment : NSInteger;
 
 SWIFT_CLASS("_TtC9ISPORTSDK10ISportData")
 @interface ISportData : NSObject
-- (nonnull instancetype)initWithMatchId:(NSString * _Nullable)matchId token:(NSString * _Nullable)token type:(enum ViewType)type env:(enum Environment)env paramDeepLink:(NSString * _Nonnull)paramDeepLink OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nullable)token paramDeepLink:(NSString * _Nonnull)paramDeepLink OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -272,33 +270,20 @@ typedef SWIFT_ENUM(NSInteger, Environment, open) {
   EnvironmentPRODUCTION = 2,
 };
 
-typedef SWIFT_ENUM(NSInteger, ViewType, open) {
-  ViewTypeHOME = 0,
-  ViewTypeDETAIL = 1,
-  ViewTypeDEEPLINK = 2,
-};
-
 
 SWIFT_PROTOCOL("_TtP9ISPORTSDK14ISportDelegate_")
 @protocol ISportDelegate
 - (void)onStartLiveDetailWithChannelId:(NSString * _Nonnull)channelId;
-- (void)onExchangeLoyaltyWithPackageId:(NSString * _Nonnull)packageId point:(uint32_t)point;
-- (void)onPurchaseWithPackageId:(NSString * _Nonnull)packageId;
 - (void)onLogin;
 - (void)onDismiss;
-- (void)onError;
-- (void)onTimeout;
 @end
 
 @class UIView;
 
 SWIFT_CLASS("_TtC9ISPORTSDK13ISportManager")
 @interface ISportManager : NSObject
+- (void)initConfigWith_env:(enum Environment)_env SWIFT_METHOD_FAMILY(none);
 - (void)addISportViewWithContainer:(UIView * _Null_unspecified)container data:(ISportData * _Null_unspecified)data isportDelegate:(id <ISportDelegate> _Nonnull)isportDelegate;
-- (void)onUserPurchaseSuccess;
-- (void)onUserPurchaseFailed;
-- (void)onUserExchangeLoyaltySuccess;
-- (void)onUserExchangeLoyaltyFailed;
 - (void)removeOverlays;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
